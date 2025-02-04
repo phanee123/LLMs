@@ -12,7 +12,7 @@ except ModuleNotFoundError:
 # Hyperparameters adjusted for CPU training
 batch_size = 16    # Reduced batch size
 block_size = 128   # Shorter sequence length
-max_iters = 1500   # Fewer iterations
+max_iters = 5000   # Fewer iterations
 eval_interval = 250  # More frequent evaluations
 learning_rate = 2e-3  # Adjusted learning rate
 device = 'cpu'  # Force CPU usage
